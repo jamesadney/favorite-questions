@@ -1,4 +1,6 @@
 FavoriteQuestions::Application.routes.draw do
+	root :to => redirect("/questions")
+
   resources :questions
 
 
